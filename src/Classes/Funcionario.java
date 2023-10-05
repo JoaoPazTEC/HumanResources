@@ -6,17 +6,28 @@ public abstract class Funcionario {
     String telefone;
     int cpf;
     char setor;
+    float aumento;
 
     public Funcionario() {
     }
 
-    public Funcionario(String nome, String endereco, String telefone, int cpf, char setor) {
+    public Funcionario(String nome, String endereco, String telefone, int cpf, char setor, float aumento) {
         this.nome = nome;
         this.endereco = endereco;
         this.telefone = telefone;
         this.cpf = cpf;
         this.setor = setor;
+        this.aumento = aumento;
     }
+
+    public float getAumento() {
+        return aumento;
+    }
+
+    public void setAumento(float aumento) {
+        this.aumento = aumento;
+    }
+    
 
     public String getNome() {
         return nome;

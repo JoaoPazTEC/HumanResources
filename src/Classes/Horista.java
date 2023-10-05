@@ -9,8 +9,8 @@ public class Horista extends Funcionario{
         this.valorHora = valorHora;
     }
 
-    public Horista(int horas, float valorHora, String nome, String endereco, String telefone, int cpf, char setor) {
-        super(nome, endereco, telefone, cpf, setor);
+    public Horista(int horas, float valorHora, String nome, String endereco, String telefone, int cpf, char setor, float aumento) {
+        super(nome, endereco, telefone, cpf, setor, aumento);
         this.horas = horas;
         this.valorHora = valorHora;
     }

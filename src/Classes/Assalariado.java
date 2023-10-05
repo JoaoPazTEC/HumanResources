@@ -7,8 +7,8 @@ public class Assalariado extends Funcionario{
         this.salario = salario;
     }
 
-    public Assalariado(float salario, String nome, String endereco, String telefone, int cpf, char setor) {
-        super(nome, endereco, telefone, cpf, setor);
+    public Assalariado(float salario, String nome, String endereco, String telefone, int cpf, char setor, float aumento) {
+        super(nome, endereco, telefone, cpf, setor, aumento);
         this.salario = salario;
     }
 
