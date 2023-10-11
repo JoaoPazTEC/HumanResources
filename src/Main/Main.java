@@ -16,11 +16,11 @@ public class Main {
             switch (code) {
 
                 case 1 -> {
-                    Controle.InsereAssalariado(empresa);
+                    Controle.TestaTamanho(empresa, code);
                 }
 
                 case 2 -> {
-                    Controle.InsereHorista(empresa);
+                    Controle.TestaTamanho(empresa, code);
                 }
 
                 case 3 -> {
